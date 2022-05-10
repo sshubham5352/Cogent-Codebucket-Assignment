@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "614432440695",
+    "project_id": "cogent-codebucket-assignment",
+    "storage_bucket": "cogent-codebucket-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614432440695:android:659288c7500c8632192172",
+        "android_client_info": {
+          "package_name": "com.example.cogentcodebucketassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614432440695-q8stk8gcf5fdt7n3d3n85tptiq4ufr19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw7h5Icy3ZymyhkeK-S-hBWmZnOJb2yKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614432440695-q8stk8gcf5fdt7n3d3n85tptiq4ufr19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

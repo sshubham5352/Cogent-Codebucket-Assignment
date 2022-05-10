@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    dp  (margin, padding)  -->
+    <dimen name="standard_toolbar_margin_bottom">18dp</dimen>
+    <dimen name="standard_layout_margin_horizontal">16dp</dimen>
+    <dimen name="margin_horizontal_24">24dp</dimen>
+    <dimen name="standard_layout_padding">16dp</dimen>
+    <dimen name="standard_layout_padding_large">32dp</dimen>
+    <dimen name="margin_between_fields">22dp</dimen>
+    <dimen name="margin_title_bottom">28dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+
+    <!--    dp  (size)  -->
+    <dimen name="size_icon_large">82dp</dimen>
+    <dimen name="size_icon_regular">64dp</dimen>
+    <dimen name="standard_spinner_height">48dp</dimen>
+
+    <!--    dp  (curves)  -->
+    <dimen name="standard_shape_curve_radius_small">6dp</dimen>
+    <dimen name="standard_shape_curve_radius">18dp</dimen>
+    <dimen name="standard_card_corner_radius">20dp</dimen>
+
+
+    <!--    sp    -->
+    <dimen name="size_toolbar_title">16sp</dimen>
+    <dimen name="size_standard_input">16sp</dimen>
+    <dimen name="size_title_large">28sp</dimen>
+    <dimen name="size_title">22sp</dimen>
+    <dimen name="size_title_small">18sp</dimen>
+    <dimen name="size_txt_large">20sp</dimen>
+    <dimen name="size_txt_regular">14sp</dimen>
+    <dimen name="size_txt_small">12sp</dimen>
+    <dimen name="size_tagline_small">10sp</dimen>
+    <dimen name="size_tagline_regular">12sp</dimen>
+    <dimen name="size_tagline_large">14sp</dimen>
+</resources>

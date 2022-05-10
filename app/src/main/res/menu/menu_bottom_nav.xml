@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:enabled="true"
+        android:icon="@drawable/selector_nav_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_article"
+        android:enabled="true"
+        android:icon="@drawable/selector_nav_article"
+        android:title="@string/articles" />
+    <item
+        android:id="@+id/nav_city"
+        android:enabled="true"
+        android:icon="@drawable/selector_nav_city"
+        android:title="@string/my_city" />
+    <item
+        android:id="@+id/nav_live"
+        android:enabled="true"
+        android:icon="@drawable/selector_nav_live"
+        android:title="@string/live" />
+</menu>
