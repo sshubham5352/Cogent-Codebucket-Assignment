@@ -33,14 +33,21 @@
         <item name="itemIconSize">18dp</item>
         <item name="itemRippleColor">@null</item>
         <item name="android:fontFamily">@font/roboto_regular</item>
-        <item name="itemTextAppearanceActive">@style/CustomBottomNavStyle.TextAppearance</item>
-        <item name="itemTextAppearanceInactive">@style/CustomBottomNavStyle.TextAppearance</item>
+        <item name="itemTextAppearanceActive">@style/CustomBottomNavStyle.TextAppearanceActive
+        </item>
+        <item name="itemTextAppearanceInactive">@style/CustomBottomNavStyle.TextAppearanceInactive
+        </item>
         <item name="android:background">@color/white</item>
 
 
     </style>
 
-    <style name="CustomBottomNavStyle.TextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+    <style name="CustomBottomNavStyle.TextAppearanceActive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="CustomBottomNavStyle.TextAppearanceInactive" parent="TextAppearance.MaterialComponents.Caption">
         <item name="android:textSize">12sp</item>
         <item name="fontFamily">@font/roboto_regular</item>
     </style>
