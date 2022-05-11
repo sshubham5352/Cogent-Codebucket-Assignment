@@ -53,16 +53,17 @@ public class SessionManager {
         editor.apply();
     }
 
+    public static String getUserName() {
+        return sharedPreferences.getString(KEY_USER_NAME, "user");
+    }
+
+    public static String getUserEmail() {
+        return sharedPreferences.getString(KEY_USER_EMAIL, "N/A");
+    }
+
     public static void logoutUser(Context context) {
         clearSessionManager();
 //        ApiClient.destroyAllRetrofitClients();
-        redirectToRegistrationActivity(context);
-    }
-
-    private static void redirectToRegistrationActivity(Context context) {
-//        Intent intent = new Intent(context, RegistrationActivity.class);
-        // Starting registration Activity
-//        context.startActivity(intent);
     }
 
     public static void clearSessionManager() {

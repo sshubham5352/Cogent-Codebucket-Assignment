@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_notifications"
+        android:enabled="true"
+        android:icon="@drawable/ic_bell"
+        android:title="@string/notifications"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="always" />
+
+    <item
+        android:enabled="true"
+        android:title="@string/bookmarks"
+        app:showAsAction="never" />
+    <item
+        android:enabled="true"
+        android:title="@string/language_preference"
+        app:showAsAction="never" />
+    <item
+        android:enabled="true"
+        android:title="@string/text_size"
+        app:showAsAction="never" />
+
+    <item
+        android:enabled="true"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+</menu>

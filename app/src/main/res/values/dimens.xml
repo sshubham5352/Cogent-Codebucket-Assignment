@@ -11,9 +11,12 @@
     <dimen name="margin_large">32dp</dimen>
 
     <!--    dp  (size)  -->
+    <dimen name="size_icon_small">16sp</dimen>
     <dimen name="size_icon_large">82dp</dimen>
     <dimen name="size_icon_regular">64dp</dimen>
     <dimen name="standard_spinner_height">48dp</dimen>
+    <dimen name="size_img_source_logo_small">26sp</dimen>
+    <dimen name="size_img_source_logo">32sp</dimen>
 
     <!--    dp  (curves)  -->
     <dimen name="standard_shape_curve_radius_small">6dp</dimen>
@@ -33,4 +36,6 @@
     <dimen name="size_tagline_small">10sp</dimen>
     <dimen name="size_tagline_regular">12sp</dimen>
     <dimen name="size_tagline_large">14sp</dimen>
+    <dimen name="size_rv_item_title_regular">16sp</dimen>
+
 </resources>

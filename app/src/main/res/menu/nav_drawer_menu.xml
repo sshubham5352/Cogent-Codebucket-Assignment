@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/personalizations">
+        <menu>
+            <item
+                android:id="@+id/item_notification"
+                android:icon="@drawable/ic_notifications"
+                android:title="@string/notifications"
+                app:actionViewClass="android.widget.Switch" />
+            <item
+                android:id="@+id/item_home_screen_setup"
+                android:icon="@drawable/ic_menu_list"
+                android:title="@string/home_screen_setup" />
+            <item
+                android:icon="@drawable/ic_text_size"
+                android:title="@string/text_size" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:icon="@drawable/ic_rate_us"
+                android:title="@string/rate_us" />
+            <item
+                android:icon="@drawable/ic_share_active"
+                android:title="@string/share" />
+
+            <item
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/feedback" />
+        </menu>
+    </item>
+
+    <item android:title="@string/privacy">
+        <menu>
+            <item
+                android:icon="@drawable/ic_about"
+                android:title="@string/about_us" />
+            <item
+                android:icon="@drawable/ic_version"
+                android:title="@string/version" />
+
+            <item
+                android:icon="@drawable/ic_privacy_policy"
+                android:title="@string/privacy_policy" />
+
+            <item
+                android:icon="@drawable/ic_terms_conditions"
+                android:title="@string/terms_and_conditions" />
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/item_sign_out"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_sign_out"
+            android:title="@string/sign_out" >
+        </item>
+    </group>
+</menu>

@@ -64,4 +64,28 @@
         <item>डोगरी</item>
         <item>नेपाली</item>
     </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome,</string>
+    <string name="personalizations">Personalizations</string>
+    <string name="notifications">Notifications</string>
+    <string name="home_screen_setup">Home screen setup</string>
+    <string name="search">Search</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="text_size">Text Size</string>
+    <string name="settings">Settings</string>
+    <string name="share_with">Share with</string>
+    <string name="share_link">Share link</string>
+    <string name="support">Support</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share">Share</string>
+    <string name="feedback">Feedback</string>
+    <string name="privacy">Privacy</string>
+    <string name="about_us">About us</string>
+    <string name="version">Version <super>(1.0.1)</super></string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+    <string name="sign_out">Sign out</string>
+    <string name="a_password_reset_link_will_be_sent_to_your_email_id">A password reset link will be sent to your email id</string>
+    <string name="under_development">Under Development</string>
 </resources>
